@@ -1,3 +1,42 @@
 [submodule "pack/enome/start/nerdtree"]
-	path = pack/enome/start/nerdtree
+	path = pack/others/start/nerdtree
 	url = https://github.com/scrooloose/nerdtree
+[submodule "pack/enome/start/vim-airline"]
+	path = pack/others/start/vim-airline
+	url = https://github.com/vim-airline/vim-airline.git
+[submodule "pack/enome/start/ctrlp"]
+	path = pack/others/start/ctrlp
+	url = https://github.com/kien/ctrlp.vim
+[submodule "pack/enome/start/onedark"]
+	path = pack/others/start/onedark
+	url = https://github.com/joshdick/onedark.vim
+[submodule "pack/enome/start/undotree"]
+	path = pack/others/start/undotree
+	url = https://github.com/mbbill/undotree
+[submodule "pack/enome/start/vim-surround"]
+	path = pack/others/start/vim-surround
+	url = https://github.com/tpope/vim-surround
+[submodule "pack/enome/start/supertab"]
+	path = pack/others/start/supertab
+	url = https://github.com/ervandew/supertab
+[submodule "pack/enome/start/gitgutter"]
+	path = pack/others/start/gitgutter
+	url = https://github.com/airblade/vim-gitgutter
+[submodule "pack/enome/start/indentline"]
+	path = pack/others/start/indentline
+	url = https://github.com/Yggdroot/indentline
+[submodule "pack/enome/start/bufonly"]
+	path = pack/others/start/bufonly
+	url = https://github.com/vim-scripts/BufOnly.vim
+[submodule "pack/enome/start/vim-json"]
+	path = pack/others/start/vim-json
+	url = https://github.com/elzr/vim-json
+[submodule "pack/enome/start/vim-javascript"]
+	path = pack/others/start/vim-javascript
+	url = https://github.com/pangloss/vim-javascript
+[submodule "pack/others/start/vim-jsx"]
+	path = pack/others/start/vim-jsx
+	url = https://github.com/mxw/vim-jsx
+[submodule "pack/others/start/ultisnips"]
+	path = pack/others/start/ultisnips
+	url = https://github.com/SirVer/ultisnips

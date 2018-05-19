@@ -1,5 +1,13 @@
 # Setting up vim
 
+## Install
+
+```sh
+git clone git@github.com:Enome/vim.git
+git submodule init
+git submodule update
+```
+
 ## Packages
 
 source: https://shapeshed.com/vim-packages/

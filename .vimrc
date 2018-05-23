@@ -46,20 +46,19 @@ set updatetime=1000
 let g:indentLine_noConcealCursor=""
 let g:vim_json_syntax_conceal=0     "Requires elzr/vim-json plugin
 
+" Ultisnips
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<tab>"
+let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
+
+"ctrlp
+let g:ctrlp_custom_ignore = 'node_modules'
+
 "Shortcuts
-map <Tab> :bn!<cr>
-map <S-Tab> :bp!<cr>
+nmap <Tab> :bn!<cr>
+nmap <S-Tab> :bp!<cr>
 map <C-c> :bd<cr>
 map <F1> :UndotreeToggle<cr>
 map <F3> :NERDTreeToggle<cr>
 map ,n :NERDTreeFind<cr>
 nnoremap <Space> za
-
-
-" Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
-let g:UltiSnipsExpandTrigger="<tab>"
-let g:UltiSnipsJumpForwardTrigger="<c-b>"
-let g:UltiSnipsJumpBackwardTrigger="<c-z>"
-
-" If you want :UltiSnipsEdit to split your window.
-let g:UltiSnipsEditSplit="vertical"

@@ -1,0 +1,58 @@
+snippet req
+	var ${1:module} = require('${0}$1');
+snippet imp
+	import ${1:module} from '${0}$1';
+snippet mod
+	const ${1:Module} = {
+	  ${0}
+	};
+
+	export default $1;
+snippet class
+	class ${1:Name} {
+
+		constructor (args) {
+			${2}
+		}
+	}
+
+	export default $1;
+snippet classe
+	class ${1:Name} extends ${2:Parent} {
+
+		constructor (args) {
+			super(args);
+			${3}
+		}
+	}
+	export default $1;
+snippet test
+	const subject = require("../${1}");
+
+	describe("${2}", () => {
+		it("${3}", () => {
+			const result = subject.${4}();
+			const expected = {};
+			expect(result).toEqual(expected);
+		});
+	});
+snippet describe
+	describe("${1}", () => {
+		it("${2}", () => {
+			const result = subject.${3}();
+			const expected = {};
+			expect(result).toEqual(expected);
+		});
+	});
+snippet it
+	it("${1}", () => {
+		const result = subject.${2}();
+		const expected = {};
+		expect(result).toEqual(expected);
+	});
+snippet eql
+	expect(${1:result}).toEqual(${2});
+snippet snap
+	expect(${1:result}).toMatchSnapshot();
+snippet cl
+	console.${1:log}(${2});

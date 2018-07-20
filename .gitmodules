@@ -40,3 +40,9 @@
 [submodule "pack/others/start/ultisnips"]
 	path = pack/others/start/ultisnips
 	url = https://github.com/SirVer/ultisnips
+[submodule "package/others/start/vim-closetag"]
+	path = package/others/start/vim-closetag
+	url = https://github.com/alvan/vim-closetag
+[submodule "pack/others/start/vim-closetag"]
+	path = pack/others/start/vim-closetag
+	url = https://github.com/alvan/vim-closetag

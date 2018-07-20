@@ -55,6 +55,7 @@ let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
 let g:ctrlp_custom_ignore = 'node_modules'
 
 "Shortcuts
+let mapleader =","
 nmap <Tab> :bn!<cr>
 nmap <S-Tab> :bp!<cr>
 map <C-c> :bd<cr>
@@ -62,3 +63,13 @@ map <F1> :UndotreeToggle<cr>
 map <F3> :NERDTreeToggle<cr>
 map ,n :NERDTreeFind<cr>
 nnoremap <Space> za
+
+" Jedi Vim
+let g:jedi#usages_command = "<leader>u"
+
+" Close tag
+let g:closetag_filenames = "*.html,*.xhtml,*.phtml,*.erb,*.jsx,*.js"
+let g:closetag_xhtml_filenames = '*.xhtml,*.jsx,*.js,*.erb'
+let g:closetag_emptyTags_caseSensitive = 1
+let g:closetag_shortcut = '>'
+let g:closetag_close_shortcut = '<leader>>'

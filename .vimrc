@@ -75,5 +75,6 @@ let g:closetag_shortcut = '>'
 let g:closetag_close_shortcut = '<leader>>'
 
 " Formatting
-autocmd FileType javascript map <buffer> <leader>f :%! prettier --trailing-comma all %<cr>
+autocmd FileType javascript,json map <buffer> <leader>f :%! prettier --trailing-comma all %<cr>
 autocmd FileType python map <buffer> <leader>f :%! black -q --py36 -<cr>
+

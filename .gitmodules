@@ -46,3 +46,6 @@
 [submodule "pack/others/start/vim-closetag"]
 	path = pack/others/start/vim-closetag
 	url = https://github.com/alvan/vim-closetag
+[submodule "pack/others/start/ale"]
+	path = pack/others/start/ale
+	url = https://github.com/w0rp/ale

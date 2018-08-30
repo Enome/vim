@@ -73,3 +73,7 @@ let g:closetag_xhtml_filenames = '*.xhtml,*.jsx,*.js,*.erb'
 let g:closetag_emptyTags_caseSensitive = 1
 let g:closetag_shortcut = '>'
 let g:closetag_close_shortcut = '<leader>>'
+
+" Formatting
+autocmd FileType javascript map <buffer> <leader>f :%! prettier --trailing-comma all %<cr>
+autocmd FileType python map <buffer> <leader>f :%! black -q --py36 -<cr>

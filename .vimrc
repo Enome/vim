@@ -78,3 +78,21 @@ let g:closetag_close_shortcut = '<leader>>'
 autocmd FileType javascript,json map <buffer> <leader>f :%! prettier --trailing-comma all %<cr>
 autocmd FileType python map <buffer> <leader>f :%! black -q --py36 -<cr>
 
+" backspace stopped working :(
+set backspace=indent,eol,start
+
+" vim-rooter
+let g:rooter_patterns = ['package.json', '.vimrc']
+let g:rooter_manual_only = 1
+
+function! CallInRoot(...)
+  let oldpath = getcwd()
+  let root = FindRootDirectory()
+  execute "cd " . root
+  execute a:000[0]
+  execute "cd " . oldpath
+endfunction
+
+command! -nargs=? CallInRoot call CallInRoot(<f-args>)
+
+autocmd FileType javascript map <leader>d :CallInRoot :!madge . --depends %<cr>

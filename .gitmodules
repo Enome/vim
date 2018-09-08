@@ -49,3 +49,12 @@
 [submodule "pack/others/start/ale"]
 	path = pack/others/start/ale
 	url = https://github.com/w0rp/ale
+[submodule "pack/others/start/vim-rooter"]
+	path = pack/others/start/vim-rooter
+	url = https://github.com/airblade/vim-rooter
+[submodule "vim-reason-plus"]
+	path = vim-reason-plus
+	url = https://github.com/reasonml-editor/vim-reason-plus
+[submodule "pack/others/start/vim-reason-plus"]
+	path = pack/others/start/vim-reason-plus
+	url = https://github.com/reasonml-editor/vim-reason-plus

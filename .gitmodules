@@ -58,12 +58,3 @@
 [submodule "pack/others/start/LanguageClient-neovim"]
 	path = pack/others/start/LanguageClient-neovim
 	url = https://github.com/autozimu/LanguageClient-neovim
-[submodule "pack/others/start/Shougo-deoplete.nvim"]
-	path = pack/others/start/Shougo-deoplete.nvim
-	url = https://github.com/Shougo/deoplete.nvim
-[submodule "pack/others/start/roxma-nvim-yarp"]
-	path = pack/others/start/roxma-nvim-yarp
-	url = https://github.com/roxma/nvim-yarp
-[submodule "pack/others/start/roxma-vim-hug-neovim-rpc"]
-	path = pack/others/start/roxma-vim-hug-neovim-rpc
-	url = https://github.com/roxma/vim-hug-neovim-rpc

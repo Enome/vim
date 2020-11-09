@@ -1,15 +1,9 @@
-[submodule "pack/enome/start/nerdtree"]
-	path = pack/others/start/nerdtree
-	url = https://github.com/scrooloose/nerdtree
 [submodule "pack/enome/start/vim-airline"]
 	path = pack/others/start/vim-airline
 	url = https://github.com/vim-airline/vim-airline.git
 [submodule "pack/enome/start/ctrlp"]
 	path = pack/others/start/ctrlp
 	url = https://github.com/kien/ctrlp.vim
-[submodule "pack/enome/start/onedark"]
-	path = pack/others/start/onedark
-	url = https://github.com/joshdick/onedark.vim
 [submodule "pack/enome/start/undotree"]
 	path = pack/others/start/undotree
 	url = https://github.com/mbbill/undotree
@@ -58,3 +52,12 @@
 [submodule "pack/others/start/LanguageClient-neovim"]
 	path = pack/others/start/LanguageClient-neovim
 	url = https://github.com/autozimu/LanguageClient-neovim
+[submodule "pack/others/start/preservim-nerdtree"]
+	path = pack/others/start/preservim-nerdtree
+	url = https://github.com/preservim/nerdtree
+[submodule "pack/others/start/jedi-vim"]
+	path = pack/others/start/jedi-vim
+	url = https://github.com/davidhalter/jedi-vim
+[submodule "pack/others/opt/onedark.vim"]
+	path = pack/others/opt/onedark.vim
+	url = https://github.com/joshdick/onedark.vim

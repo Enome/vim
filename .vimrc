@@ -27,6 +27,7 @@ set undolevels=1000             " How many undos
 set undoreload=10000            " Number of lines to save for undo
 
 "Backups
+set backupcopy=yes              " This is required to make watchers work
 set directory=$HOME/.vim/.swaps " Where to save undo histories
 
 "Folds
@@ -76,6 +77,7 @@ let g:closetag_close_shortcut = '<leader>>'
 
 " Formatting
 autocmd FileType javascript,json map <buffer> <leader>f :%! prettier --trailing-comma all %<cr>
+autocmd FileType reason map <buffer> <leader>f :%! refmt %<cr>
 autocmd FileType python map <buffer> <leader>f :%! black -q --py36 -<cr>
 
 " backspace stopped working :(

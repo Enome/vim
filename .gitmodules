@@ -55,9 +55,9 @@
 [submodule "pack/others/start/preservim-nerdtree"]
 	path = pack/others/start/preservim-nerdtree
 	url = https://github.com/preservim/nerdtree
-[submodule "pack/others/start/jedi-vim"]
-	path = pack/others/start/jedi-vim
-	url = https://github.com/davidhalter/jedi-vim
 [submodule "pack/others/opt/onedark.vim"]
 	path = pack/others/opt/onedark.vim
 	url = https://github.com/joshdick/onedark.vim
+[submodule "pack/others/start/prettier-vim-prettier"]
+	path = pack/others/start/prettier-vim-prettier
+	url = https://github.com/prettier/vim-prettier

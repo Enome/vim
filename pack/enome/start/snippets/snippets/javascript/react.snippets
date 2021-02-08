@@ -1,5 +1,5 @@
 snippet reactclass
-	import React, { Component } from 'react';
+	import React, { Component } from "react";
 
 	class ${1:Component} extends Component {
 
@@ -23,36 +23,30 @@ snippet reactclass
 
 	export default $1;
 snippet reactfn
-	import React from 'react';
+	import React from "react";
 
-	var ${1:Component} = function (props) {
-
+	const ${1:Component} = function (props) {
 		return (
-			<div>
-				${0}
-			</div>
+			${0}
 		);
-
 	};
 
 	export default $1;
-snippet rprops
-	componentWillReceiveProps (props) {
-	  ${0}
-	},
-snippet dmount
-	componentDidMount () {
-	  ${0}
-	},
-snippet istate
-	getInitialState () {
-	  return {
-	    ${0}
-	  };
-	},
-snippet dprops
-	getDefaultProps () {
-	  return {
-	    ${0}
-	  };
-	},
+snippet ngfn
+	import React from "react";
+	import PropTypes from "prop-types";
+	import { addAngularRegistration } from "modules/migration";
+
+	const ${1:Component} = function(props) {
+		return (
+			${0}
+		);
+	};
+
+	$1.displayName = "$1";
+
+	$1.propTypes = {
+		/* Required if component receives props from angular */
+	};
+
+	export default addAngularRegistration($1);

@@ -64,9 +64,6 @@ map <F3> :NERDTreeToggle<cr>
 map ,n :NERDTreeFind<cr>
 nnoremap <Space> za
 
-" Jedi Vim
-let g:jedi#usages_command = "<leader>u"
-
 " Close tag
 let g:closetag_filenames = "*.html,*.xhtml,*.phtml,*.erb,*.jsx,*.js"
 let g:closetag_xhtml_filenames = '*.xhtml,*.jsx,*.js,*.erb'
@@ -75,8 +72,8 @@ let g:closetag_shortcut = '>'
 let g:closetag_close_shortcut = '<leader>>'
 
 " Formatting
-autocmd FileType javascript,json map <buffer> <leader>f :%! prettier --trailing-comma all %<cr>
-autocmd FileType reason map <buffer> <leader>f :%! refmt %<cr>
+nmap <Leader>f <Plug>(PrettierAsync)
+let g:prettier#autoformat = 0
 autocmd FileType python map <buffer> <leader>f :%! black -q --py36 -<cr>
 
 " backspace stopped working :(
